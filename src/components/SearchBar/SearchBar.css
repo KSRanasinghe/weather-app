@@ -1,0 +1,37 @@
+.sb-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.searchBox {
+  padding: 15px;
+  border-radius: 50px;
+  border: none;
+  width: 260px;
+  height: 55px;
+}
+
+.searchBox:focus-visible {
+  outline: unset;
+}
+
+.search-btn{
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.search-icon{
+  max-width: 100%;
+  display: block;
+  width: 24px;
+  height: auto;
+}
