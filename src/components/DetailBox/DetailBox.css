@@ -1,0 +1,24 @@
+.detail-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.state-img {
+  max-width: 100%;
+  width: 30px;
+  height: auto;
+}
+
+.value-tag {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.name-tag {
+  font-size: 15px;
+  color: #fff;
+  line-height: 1;
+}
